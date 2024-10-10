@@ -7,4 +7,7 @@ Avoir sur GitHub un thème complet qu'il suffit de télécharger.
 ## 1ère étape 
 Vérifier le lien entrew fichier et GitHub
 Mon fichier de départ est: monnaze/SiteBase/....../themes/SiteClefdesol
+**Ca marche**
 
+## 2ème étape
+Je recommence le TUTO 

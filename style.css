@@ -6,10 +6,12 @@ Author URI: https://wordpress.org/
 Description: Mon thème versionné sur GitHub
 Version: 1
 */
-h1{
-    color: bisque;
-    
+
+.h15{/* Pour quand je veux faire un espacement */
+    height: 15px;
 }
-.aqua{
-    background-color: aqua !important;
+
+h1{  
+    letter-spacing: 4px;
+    color: #0d6efd;
 }
