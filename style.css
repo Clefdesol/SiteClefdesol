@@ -1,0 +1,15 @@
+/*
+Theme Name: SiteClefdesol
+Theme URI: https://wordpress.org/themes/bootstrap2/
+Author: Clefdesol
+Author URI: https://wordpress.org/
+Description: Mon thème versionné sur GitHub
+Version: 1
+*/
+h1{
+    color: bisque;
+    
+}
+.aqua{
+    background-color: aqua !important;
+}
