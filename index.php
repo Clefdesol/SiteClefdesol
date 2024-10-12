@@ -2,9 +2,9 @@
 
 <!-- HEROES de la page d'accueil -->
    
-    <div class="px-4 py-5 my-5 text-center">
+    <div class="px-4 py-3 my-5 text-center">
 
-        <img class="d-block mx-auto mb-4" src="<?php echo get_template_directory_uri();?>/img/logo.svg" alt="" width="200" height="200">
+        <img class="d-block mx-auto mb-4" src="<?php echo get_template_directory_uri();?>/img/logo.svg" alt="" width="20%" height="20%">
 
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
