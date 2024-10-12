@@ -4,6 +4,9 @@
 add_theme_support("title-tag");
 /* Pour contrôler le titre des onglets*/
 
+add_theme_support( 'post-thumbnails' );
+/* Pour contrôler les images mises en avant*/
+
 register_nav_menus( array(
     'primary_menu' => 'Menu principal',
     'footer_menu'  => 'Menu footer',
