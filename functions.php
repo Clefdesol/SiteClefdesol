@@ -11,6 +11,16 @@ register_nav_menus( array(
     'primary_menu' => 'Menu principal',
     'footer_menu'  => 'Menu footer',
 ) );
+
+// nbre de resultats dans la recherche
+
+function search_posts_per_page( $query) {
+  if ( $query->is_search() && $query->is_main_query() && ! is_admin() ) {
+      $query->set( 'posts_per_page', '-1' );
+  }
+}
+add_filter( 'pre_get_posts', 'search_posts_per_page' );
+
 /* Pour mettre un emplacement pour le menu = walker Bootstrap - WP*/
 // bootstrap 5 wp_nav_menu walker
 class bootstrap_5_wp_nav_menu_walker extends Walker_Nav_menu
