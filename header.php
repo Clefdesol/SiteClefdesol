@@ -24,6 +24,14 @@
             </a>
         <!-- Fin logo -->
 
+        <!-- Recherche -->
+          <!-- Recherche -->
+          <form method="GET" action="<?php echo home_url('/'); ?>" class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+          <input type="search" class="form-control" name="s" placeholder="Rechercher..." aria-label="Rechercher" value="<?php echo the_search_query(); ?>" required control-id="ControlID-2">
+        </form>
+
+         <!-- FIN Recherche -->
+
         <!-- Menu construit avec bootscore (github AlexWebLab) la fonctoion est dans function.php-->
             <?php
             wp_nav_menu(array(
